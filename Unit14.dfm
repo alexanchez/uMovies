@@ -1,0 +1,35 @@
+object Form14: TForm14
+  Left = 0
+  Top = 0
+  BorderStyle = bsNone
+  Caption = 'Form14'
+  ClientHeight = 341
+  ClientWidth = 619
+  Color = clCream
+  TransparentColor = True
+  TransparentColorValue = clCream
+  DoubleBuffered = True
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PopupMode = pmExplicit
+  Position = poDefault
+  OnKeyDown = FormKeyDown
+  OnMouseWheel = FormMouseWheel
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Image1: TImage
+    Left = 0
+    Top = 0
+    Width = 619
+    Height = 341
+    Align = alClient
+    Center = True
+    Proportional = True
+    ExplicitWidth = 625
+    ExplicitHeight = 281
+  end
+end
